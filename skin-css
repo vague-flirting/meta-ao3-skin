@@ -1,0 +1,333 @@
+#workskin .ao3 .comments .commentodd {
+  position: relative;
+  border: 1px solid #ddd;
+  overflow: visible;
+  margin: 0.5em 0;
+  background: transparent;
+}
+
+#workskin .ao3 .comments .commenteven {
+  position: relative;
+  border: 1px solid #ddd;
+  overflow: visible;
+  margin: 0.5em 0;
+  background: #eee;
+}
+
+#workskin .ao3 .comments .commicon {
+  float: left;
+  margin: -4em 0.6em 0.6em 0;
+  top: 0;
+  max-height: 105px;
+  border-bottom: 5px solid #ddd;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#workskin .ao3 .comments .commicon>img {
+  max-height: 100px;
+  max-width: 100px;
+  text-decoration: none;
+}
+
+#workskin .ao3 .comments h4.byline {
+  background: #ddd;
+  padding: 0.25em 0.25em 0.25em 108px;
+  margin: 0 auto -0.25em;
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+#workskin .ao3 .comments .userstuff {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  min-height: 3.3em;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#workskin .ao3 .comments .datetime {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  margin: 0;
+}
+
+#workskin .ao3 .comments .reply1 {
+  margin-left: 3%;
+}
+
+#workskin .ao3 .comments .reply2 {
+  margin-left: 6%;
+}
+
+#workskin .ao3 .comments .reply3 {
+  margin-left: 9%;
+}
+
+#workskin .ao3 .comments .reply4 {
+  margin-left: 12%;
+}
+
+#workskin .ao3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+  font-size: .9em;
+  color: black;
+  line-height: 1.286;
+  display: block;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed #900;
+  padding: 2%;
+  background-color: white;
+}
+
+#workskin .ao3 a {
+  color: black;
+  text-decoration: none;
+}
+
+#workskin .ao3 h2 {
+  color: black;
+}
+
+#workskin .ao3 .buttons a {
+  display: inline-block;
+  float: right;
+  background: #eee;
+  color: #444;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  width: auto;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: .25em .75em;
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #aaa;
+  background-image: linear-gradient(#fff 2%, #ddd 95%, #bbb 100%);
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+#workskin .ao3 .buttons a:hover {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+  color: #900;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  box-shadow: inset 2px 2px 2px #bbb;
+}
+
+#workskin .ao3 .ficwork {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+#workskin .ao3 .ficwork h2.title {
+  text-align: center;
+  color: black;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 2.2em;
+  line-height: 1;
+  margin: .429em 0;
+}
+
+#workskin .ao3 .ficwork h3.author {
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: .229em 0;
+  border-bottom: none;
+}
+
+#workskin .ao3 .ficwork h3.series {
+  text-align: left;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  border-bottom: none;
+}
+
+#workskin .ao3 .ficwork h3.summary-title {
+  border-bottom: 1px solid;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  margin: .537em 0;
+  font-size: 1.4em;
+}
+
+#workskin .ao3 .ficwork .summary {
+  margin: .64em;
+  font-size: 1.12em;
+}
+
+#workskin .ao3 .ficwork .summary p {
+  line-height: 1.5;
+  padding: 0;
+}
+
+#workskin .ao3 .menu-tags {
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 1px 1px 5px #aaa;
+  width: 100%;
+  color: black;
+}
+
+#workskin .ao3 .menu-tags .group {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  clear: right;
+  padding: 1.286em .75em;
+  position: relative;
+  overflow: hidden;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#workskin .ao3 .menu-tags .group .cwarning {
+  font-weight: bold;
+}
+
+#workskin .ao3 .menu-tags .group dt {
+  min-width: 10.5em;
+  width: 25%;
+  float: left;
+  clear: left;
+}
+
+#workskin .ao3 .menu-tags .group dd {
+  float: left;
+  width: 72.5%;
+  margin: 0 0 .643em;
+  margin-inline-start: 0;
+}
+
+#workskin .ao3 .menu-tags .group dd span {
+  margin-right: 10px;
+}
+
+#workskin .ao3 .menu-tags .group .graylinks a {
+  color: #666;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#workskin .ao3 .menu-tags .group .graylinks a:hover {
+  background-color: white;
+  color: #666;
+}
+
+#workskin .ao3 .menu-tags .group dd a {
+  color: #111;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 0;
+  border-bottom: 1px dotted;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+}
+
+#workskin .ao3 .menu-tags .group dd a:hover {
+  background-color: #900;
+  color: white;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+  border-bottom: 1px dotted;
+}
+
+#workskin .ficsum {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, Helvetica, sans-serif;
+  font-size: .9em;
+  color: black;
+  border: 2px dashed #900;
+  width: 93%;
+  display: block;
+  margin: auto;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+  background-color: white;
+}
+
+#workskin .ficsum .fic-ratings {
+  display: inline;
+  margin-top: -8px;
+}
+
+#workskin .ficsum .fic-ratings>img {
+  height: 50px;
+  width: 50px;
+}
+
+#workskin .ficsum .fichead {
+  margin-top: 0;
+}
+
+#workskin .ficsum .date {
+  position: absolute;
+  top: .75em;
+  right: 2%;
+  margin: 0;
+  font-family: monospace;
+}
+
+#workskin .ficsum .redlinks {
+  color: #900;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  border-bottom: 1px solid;
+  font-size: 1.1em;
+}
+
+#workskin .ficsum .tags {
+  border-bottom: 1px dotted;
+  cursor: pointer;
+}
+
+#workskin .ficsum .tags:hover {
+  background-color: #900;
+  color: #FFFFFF;
+}
+
+#workskin .ficsum .rtag {
+  background-color: #eee;
+  cursor: pointer;
+  border-bottom: 1px dotted;
+}
+
+#workskin .ficsum .rtag:hover {
+  background-color: #900;
+  color: #FFFFFF;
+}
+
+#workskin .ficsum .stats {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#workskin .ficsum .graylinks {
+  color: #666;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+#workskin .ficsum .graylinks:hover {
+  color: #999;
+}
